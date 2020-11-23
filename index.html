@@ -1,0 +1,38 @@
+<html>
+<head>
+    
+    // Hier habe ich eine externe CSS-Datei eingebunden
+    
+    <link rel="stylesheet" href="mystyle.css">
+    
+    
+    </head>
+
+<body>
+    
+    
+    <p style="color:blue;text-align:center;" id="text">Hallo Herr Zimmermann!</p>
+    
+    
+    <button id="myButton">Press me!</button>
+    
+    
+    // Hier befindet sich der JS-Bereich
+    
+    <script type="text/javascript">
+
+
+    document.getElementById("myButton").onclick = function() {
+        document.getElementById("text").innerHTML = 
+           "<h1>Ich bin ein großer Text</h1> " +  document.getElementById("text").innerHTML + " Guten Tag"; }
+        
+       
+            
+        
+    </script>
+    
+        
+    </body>
+
+
+</html>
